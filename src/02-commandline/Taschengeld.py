@@ -1,7 +1,7 @@
 '''
 Created on 23.11.2011
 
-@author: maxi
+@author: Werner
 '''
 class Bankkonto:
    """Einfache Bankkonto-Klasse"""
@@ -17,7 +17,7 @@ class Bankkonto:
       self.kontostand = self.kontostand - betrag
 
    def anzeigen(self):
-      print self.kontostand
+      print (self.kontostand)
 
 
 class Taschengeld(Bankkonto):
@@ -30,7 +30,7 @@ class Taschengeld(Bankkonto):
 
    def auszahlung(self, betrag):
       if ((self.kontostand - betrag) < 0.0):
-         print "ERROR!! DU darfst nicht ueberziehen! ERROR!!"
+         print ("ERROR!! DU darfst nicht ueberziehen! ERROR!!")
       else:
          self.kontostand = self.kontostand - betrag
 
