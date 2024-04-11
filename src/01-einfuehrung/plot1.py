@@ -9,4 +9,5 @@ xpoints = np.array([0, 6,3])
 ypoints = np.array([0, 250,3])
 
 plt.plot(xpoints, ypoints)
+plt.arrow(3,50,3,70,color='green',linestyle='-.')
 plt.show()

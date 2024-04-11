@@ -14,6 +14,6 @@ print("Typ von z: ", z)
 
 # Strings
 s = "Wort"
-print("Typ von s: ", type(x), " Inhalt:", s)
+print("Typ von s: ", type(s), " Inhalt:", s)
 s = 'worte ' * 5
 print(s)

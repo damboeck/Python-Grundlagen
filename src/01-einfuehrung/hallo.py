@@ -1,1 +1,5 @@
 print("Hallo Welt!")
+print("zweite Zeile",end="")
+print(" keine neue Zeile")
+print("dritte Zeile")
+print("vierte Zeile")
